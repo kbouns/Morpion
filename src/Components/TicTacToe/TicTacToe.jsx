@@ -101,7 +101,7 @@ const TicTacToe = () => {
     <div>
       <div className="container">
         <h1 className="title" ref={titleRef}>
-          Morpion en <span> React</span>
+         Exercice de Morpion en <span> React</span>
         </h1>
         <div className="board">
           <div className="row1">
