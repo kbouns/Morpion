@@ -99,6 +99,10 @@
     .board {
         width: 282px;
     }
+    .title span{
+        height: auto;
+        width: 110px;
+    }
 }
 
 @media screen and (max-width: 320px) {
