@@ -54,19 +54,19 @@
 @media screen and (max-width: 500px) {
     .title {
         font-size: 20px;
+        align-items: center;
     }
 
     .boxes {
-        display: flex;
-        height: 60px;
-        width: 60px;    
+        height: 100px;
+        width: 100px;    
         cursor: pointer;
         align-items: center;  /* Centrer verticalement les images */
         justify-content: center;  /* Centrer horizontalement les images */
     }
 
     .board {
-        width: 200px;
+        width: 300px;
     }
 
     .boxes img {
@@ -79,5 +79,7 @@
         width: auto;   /* Conserve le ratio de l'image */
         padding: 0;    /* Supprime le padding */
     }
+
+    
 }
 
