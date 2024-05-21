@@ -49,3 +49,35 @@
     padding: 20px 20px;
     height: 50px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .boxes {
+        display: flex;
+        height: 60px;
+        width: 60px;    
+        cursor: pointer;
+        align-items: center;  /* Centrer verticalement les images */
+        justify-content: center;  /* Centrer horizontalement les images */
+    }
+
+    .board {
+        width: 200px;
+    }
+
+    .boxes img {
+        height: 100%;  /* Ajuste la hauteur de l'image à celle de la box */
+        width: auto;   /* Conserve le ratio de l'image */
+    }
+    
+    .title img {
+        height: 20px;  /* Ajuste la taille de l'image */
+        width: auto;   /* Conserve le ratio de l'image */
+        padding: 0;    /* Supprime le padding */
+    }
+}
+
