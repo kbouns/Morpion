@@ -80,7 +80,8 @@
 
 @media screen and (max-width: 480px) {
     .title {
-        font-size: 30px;
+        font-size: 10px;
+        text-align: auto;
 
     }
 
@@ -101,9 +102,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .title {
-        font-size: 24px;
-    }
+
 
     .reset {
         width: 120px;
