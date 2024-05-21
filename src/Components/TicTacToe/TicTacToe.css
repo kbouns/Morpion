@@ -71,11 +71,7 @@
         height: auto;
         width: 376px;
     }
-    .title span{
-        height: auto;
-        width: 130px;
-        padding-left: 1%;
-    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -99,10 +95,7 @@
     .board {
         width: 282px;
     }
-    .title span{
-        height: auto;
-        width: 110px;
-    }
+
 }
 
 @media screen and (max-width: 320px) {
