@@ -53,6 +53,7 @@
 @media screen and (max-width: 768px) {
     .title {
         font-size: 40px;
+
     }
 
     .reset {
@@ -70,11 +71,17 @@
         height: auto;
         width: 376px;
     }
+    .title span{
+        height: auto;
+        width: 130px;
+        padding-left: 1%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .title {
         font-size: 30px;
+
     }
 
     .reset {
@@ -112,4 +119,5 @@
     .board {
         width: 188px;
     }
+    
 }
